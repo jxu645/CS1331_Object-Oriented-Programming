@@ -1,0 +1,42 @@
+
+    /*private void inputTest (TextField tf, int price) throws NegativeQuantityException, IllegalQuantityException {
+        String s = tf.getText();
+        int quantity;
+        try {
+            if (canParse(s) == false) {
+                throw new IllegalQuantityException(s + " ");
+            } else if (Integer.parseInt(s) < 0) {
+                throw new NegativeQuantityException(s + " ");
+            } else {
+                quantity = Integer.parseInt(s);
+                itemSum = quantity * price;
+            }
+        }
+        catch (IllegalQuantityException iqe) {
+            System.out.println(iqe);
+        }
+        catch (NegativeQuantityException nqe) {
+            System.out.println(nqe);
+        }
+    }
+
+    public void eventFire (TextField tf, int p) {
+        tf.setOnKeyPressed(new EventHandler<KeyEvent>() {
+            @Override
+            public void handle(KeyEvent ke) {
+                if (ke.getCode().equals(KeyCode.ENTER)) {
+                    try {
+                        inputTest(tf, p);
+                    }
+                    catch (NegativeQuantityException nqe) {
+                        a.setContentText("Entered quantity can't be negative.");
+                        a.show();
+                    }
+                    catch (IllegalQuantityException iqe) {
+                        a.setContentText("Entered quantity is not an integer.");
+                        a.show();
+                    }
+                }
+            }
+        });
+    }*/

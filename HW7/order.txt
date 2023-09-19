@@ -1,0 +1,4 @@
+Hamburgers: 5
+Hot Dogs: 4
+Ice Creams: 3
+Total Order: $86
